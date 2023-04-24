@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-top: -60px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #eee;
+}
+
+caption {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
